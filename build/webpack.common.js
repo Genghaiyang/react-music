@@ -67,7 +67,7 @@ module.exports = {
               },
 
               {
-                test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/i, // 字体
+                test: /\.(woff2?|eot|ttf|otf|svg)(\?.*)?$/i, // 字体
                 use: [
                   {
                     loader: 'url-loader',

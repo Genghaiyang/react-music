@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="more" unicode="&#59124;" d="M168 762m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8ZM168 424m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8ZM168 86m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8Z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="more-copy" unicode="&#59125;" d="M168 762m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8ZM168 424m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8ZM168 86m8 0l672 0q8 0 8-8l0-64q0-8-8-8l-672 0q-8 0-8 8l0 64q0 8 8 8Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
