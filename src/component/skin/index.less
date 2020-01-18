@@ -1,0 +1,71 @@
+.skinBox {
+	width: 100%;
+	height: 100%;
+	background: url(../../assets/icon/play_bg.jpg) no-repeat center;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	.title {
+		width: 100%;
+		text-align: center;
+		line-height: 1.4rem;
+		span {
+			float: right;
+			font-size: 0.36rem;
+			position: absolute;
+			right: 0.2rem;
+		}
+	}
+	.text {
+		line-height: 0.4rem;
+        color: #fff;
+        height: 0.4rem;
+        font-size: 0.36rem;
+        padding-left: 0.35rem;
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3px;
+			height: 0.4rem;
+			background-color: #faebd7;
+		}
+    }
+    ul{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0.4rem;
+        li{
+            flex: 0 0 32%;
+            width: 32%;
+            text-align: center;
+            padding-left: 4%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            height: 4rem;
+            .top{
+                width: 100%;
+                height: 100%;
+                height: 3rem;
+                position: relative;
+                .check{
+                    position: absolute;
+                    bottom: 0.2rem;
+                    right: 0.2rem;
+                    display: none;
+                }
+            }
+            .bottom{
+                font-size: 0.38rem;
+                line-height: 0.8rem;
+            }
+        }
+    }
+}

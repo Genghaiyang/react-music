@@ -8,12 +8,13 @@ class HeaderBar extends React.Component {
 		return (
 			<div className="headerBox">
 				<header className="headerBar">
-                    <span className='moreBtn'>
+                    <span className='moreBtn' onClick={this.props.showMenu}>
 					{/* <svg class="icon" aria-hidden="true">
 						<use xlinkHref="#icon-more"></use>
 					</svg> */}
                     <Icon type="unordered-list" />
                     </span>
+                    <span className='logo'></span>
                     <span className='title'>Mango Music</span>
 				</header>
 				<nav className="navBar">

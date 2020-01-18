@@ -1,13 +1,8 @@
 import React from 'react'
-import HeaderBar from '../../component/header'
 import './index.less'
 class Recommend extends React.Component {
 	render() {
-		return (
-			<div id='container'>
-				<HeaderBar/>
-			</div>
-		)
+		return <div>123</div>
 	}
 }
 export default Recommend
