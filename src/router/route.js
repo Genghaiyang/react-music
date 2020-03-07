@@ -2,6 +2,7 @@ import React from 'react'
 import { HashRouter, Route, Redirect, Switch } from 'react-router-dom'
 import HeaderBar from '../component/header'
 import SettingMenu from '../component/settingMenu'
+import MusicPlayer from '../component/footer'
 import Recommend from '../pages/recommend'
 class RouteConfig extends React.Component {
     constructor(props){
@@ -31,6 +32,7 @@ class RouteConfig extends React.Component {
 				</div>
                 {/* <Route component={SettingMenu} /> */}
                 <SettingMenu show={this.state.isMenuShow} closeMenu={this.closeMenu}/>
+                <MusicPlayer/>
 			</HashRouter>
 		)
 	}
